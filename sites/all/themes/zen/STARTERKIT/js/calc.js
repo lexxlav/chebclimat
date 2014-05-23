@@ -30,6 +30,19 @@ $('#myModal1').modal();
 
 }
 
+function podr(numb,show) {
+  if (show==1){
+  document.getElementById("podr_link"+numb).style.cssText="display:none;";
+  $('#podr_text'+numb).show('4000');
+  //document.getElementById("podr_text"+numb).style.cssText="display:block;";
+  }
+  else {
+  document.getElementById("podr_link"+numb).style.cssText="display:block;";
+  //document.getElementById("podr_text"+numb).style.cssText="display:none;"; 
+  $('#podr_text'+numb).hide('slow');
+  }
+}
+
 /*	
 Q1 = S * h * q / 1000, где
 S — площадь помещения (м²);
