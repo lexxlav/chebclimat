@@ -5,7 +5,7 @@ $(document).ready(function(){
 			"submitted[name]":{
 				required: true,
 				minlength: 2,
-                maxlength: 16,
+                maxlength: 30,
 			},
 			"submitted[phone]":{
 				required: true,
@@ -50,7 +50,7 @@ $(document).ready(function(){
 			"submitted[name]":{
 				required: true,
 				minlength: 2,
-                maxlength: 16,
+                maxlength: 30,
 			},
 			"submitted[phone]":{
 				required: true,
@@ -90,7 +90,7 @@ $(document).ready(function(){
 			"submitted[name]":{
 				required: true,
 				minlength: 2,
-                maxlength: 16,
+                maxlength: 30,
 			},
 			"submitted[phone]":{
 				required: true,
@@ -130,7 +130,7 @@ $('#webform-client-form-7').validate({
 			"submitted[name]":{
 				required: true,
 				minlength: 2,
-                maxlength: 16,
+                maxlength: 30,
 			},
 			"submitted[phone]":{
 				required: true,
@@ -169,7 +169,7 @@ $('#webform-client-form-10').validate({
 			"submitted[name]":{
 				required: true,
 				minlength: 2,
-                maxlength: 16,
+                maxlength: 30,
 			},
 			"submitted[phone]":{
 				required: true,
@@ -208,7 +208,124 @@ $('#webform-client-form-9').validate({
 			"submitted[name]":{
 				required: true,
 				minlength: 2,
-                maxlength: 16,
+                maxlength: 30,
+			},
+			"submitted[phone]":{
+				required: true,
+				minlength: 6,
+                maxlength: 11,	
+                digits: true
+			},
+			"submitted[email]":{
+				required: true,
+				email: true
+			}
+
+
+		},
+		messages:{
+			"submitted[name]":{
+				required: "<div class='error_message'>Это поле обязательно для заполнения</div>",
+				minlength: "<div class='error_message'>Мининум 2 символа</div>",
+                maxlength: "<div class='error_message'>Максимум 16 символов</div>"
+			},
+			"submitted[phone]":{
+				required: "<div class='error_message'>Это поле обязательно для заполнения</div>",
+				minlength: "<div class='error_message'>Мининум 6 символа</div>",
+                maxlength: "<div class='error_message'>Максимум 16 символов</div>",	
+                digits: "<div class='error_message'>Только цифры</div>"
+			},
+			"submitted[email]":{
+				required: "<div class='error_message'>Это поле обязательно для заполнения</div>",
+				email: "<div class='error_message'>Электронный адрес введен неверно</div>"
+			}
+		}
+	});
+
+$('#webform-client-form-11').validate({
+		rules:{
+			"submitted[name]":{
+				required: true,
+				minlength: 2,
+                maxlength: 30,
+			},
+			"submitted[phone]":{
+				required: true,
+				minlength: 6,
+                maxlength: 11,	
+                digits: true
+			},
+			"submitted[email]":{
+				required: true,
+				email: true
+			}
+
+
+		},
+		messages:{
+			"submitted[name]":{
+				required: "<div class='error_message'>Это поле обязательно для заполнения</div>",
+				minlength: "<div class='error_message'>Мининум 2 символа</div>",
+                maxlength: "<div class='error_message'>Максимум 16 символов</div>"
+			},
+			"submitted[phone]":{
+				required: "<div class='error_message'>Это поле обязательно для заполнения</div>",
+				minlength: "<div class='error_message'>Мининум 6 символа</div>",
+                maxlength: "<div class='error_message'>Максимум 16 символов</div>",	
+                digits: "<div class='error_message'>Только цифры</div>"
+			},
+			"submitted[email]":{
+				required: "<div class='error_message'>Это поле обязательно для заполнения</div>",
+				email: "<div class='error_message'>Электронный адрес введен неверно</div>"
+			}
+		}
+	});
+
+    $('#webform-client-form-12').validate({
+		rules:{
+			"submitted[name]":{
+				required: true,
+				minlength: 2,
+                maxlength: 30,
+			},
+			"submitted[phone]":{
+				required: true,
+				minlength: 6,
+                maxlength: 11,	
+                digits: true
+			},
+			"submitted[email]":{
+				required: true,
+				email: true
+			}
+
+
+		},
+		messages:{
+			"submitted[name]":{
+				required: "<div class='error_message'>Это поле обязательно для заполнения</div>",
+				minlength: "<div class='error_message'>Мининум 2 символа</div>",
+                maxlength: "<div class='error_message'>Максимум 16 символов</div>"
+			},
+			"submitted[phone]":{
+				required: "<div class='error_message'>Это поле обязательно для заполнения</div>",
+				minlength: "<div class='error_message'>Мининум 6 символа</div>",
+                maxlength: "<div class='error_message'>Максимум 16 символов</div>",	
+                digits: "<div class='error_message'>Только цифры</div>"
+			},
+			"submitted[email]":{
+				required: "<div class='error_message'>Это поле обязательно для заполнения</div>",
+				email: "<div class='error_message'>Электронный адрес введен неверно</div>"
+			}
+		}
+	});
+
+    $('#webform-client-form-13').validate({
+		rules:{
+			"submitted[name]":{
+				required: true,
+				minlength: 2,
+                maxlength: 30,
 			},
 			"submitted[phone]":{
 				required: true,

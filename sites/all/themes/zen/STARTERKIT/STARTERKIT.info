@@ -118,6 +118,9 @@ regions[webform_call]   = webform call
 regions[webform_questions]   = webform questions
 regions[webform_cond_zerten]   = webform zerten
 regions[webform_cond_akvilon]   = webform akvilon
+regions[webform_cond_kraft1]   = webform kraft1
+regions[webform_cond_kraft2]   = webform kraft2
+regions[webform_cond_lessar]   = webform lessar
 
 ; The page_top and page_bottom regions are hidden, which means they will not
 ; show up on the blocks administration page. But they are required in order for

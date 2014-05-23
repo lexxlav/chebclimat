@@ -23,7 +23,11 @@ var power = document.getElementById("power");
   power.innerHTML = "<div class='row-fluid left'><div class='span8'> Мощность охлаждения Q:</div><div class='span4 bold'>"+q_obs.toFixed(2)+" кВт </div></div>"; 
 var power_delta = document.getElementById("power_delta");
   power_delta.innerHTML = "<div class='row-fluid left'><div class='span8'> Рекомендуемый диапазон Q<b class='undertext'>range</b>:</div><div class='span4 bold'>"+ q_r1.toFixed(1)+" - " + q_r2.toFixed(1) + "кВт </div></div>"; 
+document.getElementById('edit-submitted-power').value = q_obs.toFixed(2)+" кВт";
+$('#myModal1').modal();
+
  }
+
 }
 
 /*	

@@ -173,34 +173,88 @@
     
    <div class="row-fluid conditioners">
      <div class="span5">
-        <img class="m_r" src="sites/all/themes/zen/STARTERKIT/images/zerten.jpg">
+        <img class="m_r" src="sites/all/themes/zen/STARTERKIT/images/airwell.jpg">
      </div>
      <div class="span4">
        <div class="cond_text">
-        <p><div class="blue_text"><strong>Zerten CE-7</strong></div></p>
-        <p>Обслуживаемая площадь 20.00 кв.м.</p>
-        <p><div class="blue_text"><strong>Цена:</strong> 16 000.00 руб.</div></p>
+        <p><div class="blue_text"><strong>Airwell AWAU-YGF009-H11</strong></div></p>
+        <p>Обслуживаемая площадь до 26 кв.м.</p>
+       <!-- <p><div class="blue_text"><strong>Цена:</strong> 16 000.00 руб.</div></p>-->
        </div>
      </div>
      <div class="span3">
-          <a href="#myModal_zerten" data-toggle="modal"  class="btn form-submit short2">ЗАКАЗАТЬ</a>
+          <a href="#myModal_airwell" data-toggle="modal"  class="btn form-submit short2">ЗАКАЗАТЬ</a>
      </div>
 
 
    </div> 
     <div class="row-fluid m_t">
      <div class="span5">
-        <img class="m_r" src="sites/all/themes/zen/STARTERKIT/images/akvilon.jpg">
+        <img class="m_r" src="sites/all/themes/zen/STARTERKIT/images/kentatsu.jpg">
      </div>
      <div class="span4">
        <div class="cond_text">
-        <p><div class="blue_text"><strong>akvilon серия Comfort ASE-7</strong></div></p>
-        <p>Обслуживаемая площадь 20.00 кв.м.</p>
-        <p><div class="blue_text"><strong>Цена:</strong> 10 657.00 руб.</div></p>
+        <p><div class="blue_text"><strong>Kentatsu ksgc53hfan1</strong></div></p>
+        <p>Обслуживаемая площадь 26-44 кв.м.</p>
+       <!-- <p><div class="blue_text"><strong>Цена:</strong> 10 657.00 руб.</div></p>-->
        </div>
      </div>
      <div class="span3">
          <a href="#myModal_akvilon" data-toggle="modal"  class="btn form-submit short2">ЗАКАЗАТЬ</a>
+     </div>
+
+
+   </div> 
+
+   <div class="row-fluid m_t">
+     <div class="span5">
+        <img class="m_r" src="sites/all/themes/zen/STARTERKIT/images/kraft2.jpg">
+     </div>
+     <div class="span4">
+       <div class="cond_text">
+        <p><div class="blue_text"><strong>Kraft kf-csp-12000-btu</strong></div></p>
+        <p>Обслуживаемая площадь 35 кв.м.</p>
+       <!-- <p><div class="blue_text"><strong>Цена:</strong> 10 657.00 руб.</div></p>-->
+       </div>
+     </div>
+     <div class="span3">
+         <a href="#myModal_kraft1" data-toggle="modal"  class="btn form-submit short2">ЗАКАЗАТЬ</a>
+     </div>
+
+
+   </div> 
+
+    <div class="row-fluid m_t">
+     <div class="span5">
+        <img class="m_r" src="sites/all/themes/zen/STARTERKIT/images/kraft.jpg">
+     </div>
+     <div class="span4">
+       <div class="cond_text">
+        <p><div class="blue_text"><strong>Kraft KF-GTS 9000 BTU</strong></div></p>
+        <p>Обслуживаемая площадь 27 кв.м.</p>
+       <!-- <p><div class="blue_text"><strong>Цена:</strong> 10 657.00 руб.</div></p>-->
+       </div>
+     </div>
+     <div class="span3">
+         <a href="#myModal_kraft2" data-toggle="modal"  class="btn form-submit short2">ЗАКАЗАТЬ</a>
+     </div>
+
+
+   </div> 
+
+    <div class="row-fluid m_t">
+     <div class="span5">
+        <img class="m_r" src="sites/all/themes/zen/STARTERKIT/images/lessar.jpg">
+     </div>
+     <div class="span4">
+       <div class="cond_text">
+        <p><div class="blue_text"><strong>LESSAR LU-H09KFA2</strong></div></p>
+        <p>Обслуживаемая площадь 25 кв.м.</p>
+       <!-- <p><div class="blue_text"><strong>Цена:</strong> 10 657.00 руб.</div></p>-->
+       </div>
+     </div>
+     <div class="span3">
+         <a href="#myModal_lessar" data-toggle="modal"  class="btn form-submit short2">ЗАКАЗАТЬ</a>
      </div>
 
 
@@ -414,6 +468,24 @@
       </div>
     </div>
 
+  <!-- modal window-->
+  <div class="modal hide fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="myModalLabel">Введите свои данные</h3>
+      </div>
+      <div class="modal-body">
+        <div class="text_in_modal">
+          <p>Отправьте свои контакты, и наши специалисты помогут Вам подобрать наиболее подходящий кондиционер.</p>
+        </div>
+        <?php print render($page['webform']); ?> 
+      </div>
+      <div class="modal-footer">
+       <!-- <button type="submit" class="btn btn-primary on_modal_btn" id="phone_order_sbm_btn">Отправить контакты</button>-->
+         <button class="btn" data-dismiss="modal" aria-hidden="true">Закрыть</button> 
+      </div>
+    </div>  
+
    <!-- modal window-->
   <div class="modal hide fade width" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
       <div class="modal-header">
@@ -431,14 +503,14 @@
 
 
 <!-- -->
-  <!-- modal window zerten-->
-  <div class="modal hide fade" id="myModal_zerten" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <!-- modal window myModal_airwell-->
+  <div class="modal hide fade" id="myModal_airwell" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
         <h3 id="myModalLabel">Введите контактные данные</h3>
       </div>
       <div class="modal-body">
-        <p>Заказ кондиционера <strong>Zerten CE-7</strong></p>
+        <p>Заказ кондиционера <strong>Airwell AWAU-YGF009-H11</strong></p>
         <?php print render($page['webform_cond_zerten']); ?> 
       </div>
       <div class="modal-footer">
@@ -457,8 +529,63 @@
         <h3 id="myModalLabel">Введите контактные данные</h3>
       </div>
       <div class="modal-body">
-        <p>Заказ кондиционера <strong>Akvilon Comfotr ASE-7</strong></p>
+        <p>Заказ кондиционера <strong>Kentatsu ksgc53hfan1</strong></p>
         <?php print render($page['webform_cond_akvilon']); ?> 
+      </div>
+      <div class="modal-footer">
+       <!-- <button type="submit" class="btn btn-primary on_modal_btn" id="phone_order_sbm_btn">Отправить контакты</button>-->
+         <button class="btn" data-dismiss="modal" aria-hidden="true">Закрыть</button> 
+      </div>
+    </div> 
+
+
+<!-- -->
+
+ <!-- modal window kraft1-->
+  <div class="modal hide fade" id="myModal_kraft1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="myModalLabel">Введите контактные данные</h3>
+      </div>
+      <div class="modal-body">
+        <p>Заказ кондиционера <strong>Kraft kf-csp-12000-btu</strong></p>
+        <?php print render($page['webform_cond_kraft1']); ?> 
+      </div>
+      <div class="modal-footer">
+       <!-- <button type="submit" class="btn btn-primary on_modal_btn" id="phone_order_sbm_btn">Отправить контакты</button>-->
+         <button class="btn" data-dismiss="modal" aria-hidden="true">Закрыть</button> 
+      </div>
+    </div> 
+
+
+<!-- -->
+ <!-- modal window kraft2-->
+  <div class="modal hide fade" id="myModal_kraft2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="myModalLabel">Введите контактные данные</h3>
+      </div>
+      <div class="modal-body">
+        <p>Заказ кондиционера <strong>Kraft KF-GTS 9000 BTU</strong></p>
+        <?php print render($page['webform_cond_kraft2']); ?> 
+      </div>
+      <div class="modal-footer">
+       <!-- <button type="submit" class="btn btn-primary on_modal_btn" id="phone_order_sbm_btn">Отправить контакты</button>-->
+         <button class="btn" data-dismiss="modal" aria-hidden="true">Закрыть</button> 
+      </div>
+    </div> 
+
+
+<!-- -->
+ <!-- modal window lessar-->
+  <div class="modal hide fade" id="myModal_lessar" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="myModalLabel">Введите контактные данные</h3>
+      </div>
+      <div class="modal-body">
+        <p>Заказ кондиционера <strong>LESSAR LU-H09KFA2</strong></p>
+        <?php print render($page['webform_cond_lessar']); ?> 
       </div>
       <div class="modal-footer">
        <!-- <button type="submit" class="btn btn-primary on_modal_btn" id="phone_order_sbm_btn">Отправить контакты</button>-->
