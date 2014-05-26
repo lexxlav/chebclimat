@@ -9,8 +9,9 @@
 ?>
 <a name="start"></a>
 
-<div class="navbar navbar-fixed-top" id="blue_navbar">
+<div class="navbar navbar-fixed-top" id="blue_ban">
   <div class="navbar-inner">
+    <div class="container">
     <ul class="nav">
       <li class="first_li"><a href="#start">В начало</a></li>
       <li><a href="#rasch">Рассчет мощности охлаждения</a></li>
@@ -20,6 +21,7 @@
       <li><a href="#review">Отзывы</a></li>
       <li><a href="#contact">Контакты</a></li>
     </ul>
+  </div>
   </div>
 </div>
 

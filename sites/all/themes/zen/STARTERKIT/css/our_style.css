@@ -1216,13 +1216,13 @@ text-align: left;
 	background-color: #3266cc;
 	background-image: none;
 	border: none;
-	text-align: center;
+	/*text-align: center;*/
   
 }
 
 #blue_navbar .navbar-inner .nav {
-  display: inline-flex;
-  float: none;
+/*  display: inline-flex;
+  float: none;*/
 
 }
 
@@ -1230,17 +1230,35 @@ text-align: left;
 	float:none;
 }
 
-#blue_navbar .nav > li > a {
-float: none;
+/*#blue_navbar .nav > li > a {
+float: left;
 padding: 10px 15px 10px;
 color: #ffffff;
 text-decoration: none;
 text-shadow: none;
 font-weight: normal;
-}
+}*/
 
 .first_li {
 
+}
+
+#blue_ban .navbar-inner {
+  background-color: #3266cc;
+  background-image: none;
+  border: none;
+}
+
+#blue_ban li {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+#blue_ban li > a {
+   padding: 10px 10px 10px;
+   color: #ffffff;
+   font-weight: normal;
+   text-shadow:none;
 }
 
 body {
