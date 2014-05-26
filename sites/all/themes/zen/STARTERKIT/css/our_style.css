@@ -944,6 +944,10 @@ float: left;
 	margin-top: 40px;
 }
 
+.m_t2{
+	margin-top:25px;
+}
+
 .name {
 	font-size: 15pt;
 	margin-bottom: 15px;
@@ -1288,3 +1292,13 @@ body {
 	height:16px;
 	width:136px;
 }
+
+.m_b {
+	margin-bottom: 50px;
+}
+
+.w240 
+{height:22px;
+ width:240px;
+ margin-left:55px;
+ border:none;}

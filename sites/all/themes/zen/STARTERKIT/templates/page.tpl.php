@@ -629,10 +629,11 @@
        <div class="span6">
          
           <div class="row-fluid white_number">8 (8352) 22-07-66</div>
-          <div class="row-fluid white_number">8 (8352) 21-07-66</div>
-          <div class="row-fluid little_white_text"><a href="#myModal" data-toggle="modal">заказать звонок</a></div>
+          <div class="row-fluid white_number m_b">8 (8352) 21-07-66</div>
        </div>
-      
+       <div class="span1"></div>
+       <div class="span4 m_t2"><a href="#myModal" data-toggle="modal" class="btn form-submit short w240">ЗАКАЗАТЬ ОБРАТНЫЙ ЗВОНОК</a></div>
+
      </div>
 
   </div>
