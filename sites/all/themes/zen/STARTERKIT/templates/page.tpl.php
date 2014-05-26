@@ -645,7 +645,7 @@
       <div class="row-fluid margin_top10">
          <div class="span6 very_little_white_text">Copyright &copy 2014 Чебклимат</div>
          <div class="span2"></div>
-         <div class="span4 very_little_white_text">Разработано <a href="http:\\sellingsites.pro"><img src="sites/all/themes/zen/STARTERKIT/images/sellingsites.png" class="sslogo"></a></div>
+         <div class="span4 very_little_white_text">Разработано <a href="http://www.sellingsites.pro"><img src="sites/all/themes/zen/STARTERKIT/images/sellingsites.png" class="sslogo"></a></div>
          
       </div>
    </div>
