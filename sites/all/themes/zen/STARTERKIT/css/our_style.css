@@ -406,11 +406,12 @@ outline: none;
 }
 
 @font-face {
-    font-family: Tahoma; /* Имя шрифта */
-    src: url(fonts/tahoma.ttf); /* Путь к файлу со шрифтом */
+    font-family: OpenSans-Regular; /* Имя шрифта */
+    src: url(fonts/OpenSans-Regular.ttf); /* Путь к файлу со шрифтом */
    }
-   P {
-    font-family: Tahoma;
+   .big_blue_label,
+   .blue_block_text {
+    font-family: OpenSans-Regular;
    }
 
  hr {
@@ -635,7 +636,7 @@ float: left;
 {
 	text-align: center;
 	color: #0067cb;
-	font-size: 17pt;
+	font-size: 19pt;
 	font-weight: bold;
 	margin-bottom: 50px;
 }
@@ -1201,3 +1202,83 @@ text-align: left;
     -moz-column-rule: 0px solid #ccc;
     column-rule: 0px solid #ccc;
 } 
+
+#blue_navbar {
+
+}
+
+#blue_navbar .navbar-inner {
+	background-color: #3266cc;
+	background-image: none;
+	border: none;
+	text-align: center;
+  
+}
+
+#blue_navbar .navbar-inner .nav {
+  display: inline-flex;
+  float: none;
+
+}
+
+#blue_navbar .navbar-inner .nav > li {
+	float:none;
+}
+
+#blue_navbar .nav > li > a {
+float: none;
+padding: 10px 15px 10px;
+color: #ffffff;
+text-decoration: none;
+text-shadow: none;
+font-weight: normal;
+}
+
+.first_li {
+
+}
+
+body {
+	margin-top: 15px;
+}
+
+#img1 {
+  	background-image: url("../images/1.png");
+    width: 88px;
+    height: 88px;
+      background-repeat: no-repeat; 
+      background-position: 0 0;
+}
+
+#img2 {
+  	background-image: url("../images/2.png");
+    width: 88px;
+    height: 88px;
+      background-repeat: no-repeat; 
+      background-position: 0 0;
+}
+
+#img3 {
+  	background-image: url("../images/3.png");
+    width: 88px;
+    height: 88px;
+      background-repeat: no-repeat; 
+      background-position: 0 0;
+}
+
+#dop_usl .span3,
+#dop_usl .span1 {
+	margin-left: 0;
+}
+
+.dop_text {
+	margin-top: 15px;
+	margin-left: 10px;
+	font-weight: bold;
+}
+
+.blue_block_text {
+	font-size:14pt;
+	font-weight:normal;
+	line-height:15px;
+}

@@ -7,6 +7,23 @@
  * @see https://drupal.org/node/1728148
  */
 ?>
+<a name="start"></a>
+
+<div class="navbar navbar-fixed-top" id="blue_navbar">
+  <div class="navbar-inner">
+    <ul class="nav">
+      <li class="first_li"><a href="#start">В начало</a></li>
+      <li><a href="#rasch">Рассчет мощности охлаждения</a></li>
+      <li><a href="#conditioners">Кондиционеры</a></li>
+      <li><a href="#dop_usl">Дополнительные услуги</a></li>
+      <li><a href="#how_work">Как мы работаем</a></li>
+      <li><a href="#review">Отзывы</a></li>
+      <li><a href="#contact">Контакты</a></li>
+    </ul>
+  </div>
+</div>
+
+
 <div id="page2">
     <!-- -->
        <div class="row-fluid room_background">
@@ -23,6 +40,7 @@
                   <div class="row-fluid ">
                      <a href="#reg" class="btn form-submit short">ОСТАВИТЬ ЗАЯВКУ</a>
                   </div> 
+                   <a name="rasch"></a>
             </div>
            </div> 
           </div>
@@ -159,6 +177,7 @@
          <p><span class="result" id="power_delta"></span></p>
         </div> 
          <p><input type="button" onclick="calculate()" value="РАСЧИТАТЬ" class="btn form-submit short3"></p>
+<a name="conditioners"></a>  
        </div>
       </form>
      </div>
@@ -167,7 +186,8 @@
  <div class="span2"></div>
 </div>
 
-  
+
+
 <div class="container white_block">
    <?php if(arg(0)=="autorization" || arg(0)=="user"){print render($page['content']);}?> 
     
@@ -392,6 +412,7 @@
          <a href="#myModal_lessar" data-toggle="modal"  class="btn form-submit short2">ЗАКАЗАТЬ</a>
      </div>
    </div> 
+<a name="dop_usl"></a>   
    <div id="podr_text5">
      <div class="row-fluid">
      <p><strong>НАСТЕННЫЙ КОНДИЦИОНЕР LESSAR LS/LU-H09KFA2</strong> 
@@ -418,6 +439,24 @@
 
 
 </div>
+<!-- -->
+
+<div class="row-fluid white_block" id="dop_usl">
+     <div class="container">
+        <div class="big_black_text">Дополнительные услуги</div>
+        <div class="row-fluid">
+          <div class="span1" id="img1"></div>
+          <div class="span3"><div class="dop_text">Монтаж кондиционеров, сплит систем</div></div>
+          <div class="span1" id="img2"></div>
+          <div class="span3"><div class="dop_text">Монтаж, обслуживание и ремонт любого холодильного оборудования.</div></div>
+          <div class="span1" id="img3"></div>
+          <div class="span3"><div class="dop_text">Заправка, ремонт автокондиционеров</div></div>
+        </div>
+     </div>
+</div>        
+
+
+
 
 <!-- -->
 <a name="reg"></a>
@@ -425,15 +464,16 @@
  <div class="alpha"></div>
   <div class="container">
      <div class="row-fluid block_text">
-         <div class="span4">
+         <div class="span4 blue_block_text">
              <div class="big_blue_text">
                 <p>Оставьте заявку</p>
                 <p>и получите</p>
              </div>
+             <div class="m_t">
              <p>консультацию наших специалистов</p>   
              <p>по всем видам</p>   
              <p>кондиционерного оборудования!</p>   
-
+             </div>
          </div> 
          <div class="span1">
          </div>
@@ -441,6 +481,7 @@
            <div class="strelka"></div>
          </div>
            <div class="span4 with_webform"> <div class="webform"><?php print render($page['webform2']); ?></div></div>
+<a name="how_work"></a>           
      </div>
   </div>
 
@@ -454,6 +495,7 @@
 <!-- -->
    
 <!-- -->
+
  <div class="row-fluid white_block">
      <div class="container">
         <div class="big_black_text">Как мы работаем?</div>
@@ -464,6 +506,7 @@
            </div>
           </div> 
         </div>
+<a name="review"></a>        
         <div class="row-fluid margin_top_30 bold">
           <div class="span1">
           </div>
@@ -491,6 +534,7 @@
      </div>
   </div>
 <!-- -->  
+
   <div class="row-fluid white_block">
      <div class="container">
         <div class="big_black_text green">Отзывы</div>
@@ -555,7 +599,7 @@
 
 <!-- -->
  
-
+<a name="contact"></a>
 <div class="row-fluid white_block m_t m_b_none">
      <div class="container center">
        <div class="big_black_text">Контакты</div>
