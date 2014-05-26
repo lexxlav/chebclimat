@@ -464,7 +464,7 @@
  <div class="alpha"></div>
   <div class="container">
      <div class="row-fluid block_text">
-         <div class="span4 blue_block_text">
+         <div class="span5 blue_block_text">
              <div class="big_blue_text">
                 <p>Оставьте заявку</p>
                 <p>и получите</p>
@@ -475,8 +475,7 @@
              <p>кондиционерного оборудования!</p>   
              </div>
          </div> 
-         <div class="span1">
-         </div>
+        
          <div class="span2">
            <div class="strelka"></div>
          </div>
@@ -645,7 +644,7 @@
       <div class="row-fluid margin_top10">
          <div class="span6 very_little_white_text">Copyright &copy 2014 Чебклимат</div>
          <div class="span2"></div>
-         <div class="span4 very_little_white_text">Разработано <a href="http:\\sellingsites.pro"><img src="sites/all/themes/zen/STARTERKIT/images/sellingsites.png"></a></div>
+         <div class="span4 very_little_white_text">Разработано <a href="http:\\sellingsites.pro"><img src="sites/all/themes/zen/STARTERKIT/images/sellingsites.png" class="sslogo"></a></div>
          
       </div>
    </div>

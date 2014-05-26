@@ -406,12 +406,13 @@ outline: none;
 }
 
 @font-face {
-    font-family: OpenSans-Regular; /* Имя шрифта */
-    src: url(fonts/OpenSans-Regular.ttf); /* Путь к файлу со шрифтом */
+    font-family: Tahoma; /* Имя шрифта */
+    /*src: url(fonts/OpenSans-Regular.ttf); /* Путь к файлу со шрифтом */
    }
+   body,
    .big_blue_label,
    .blue_block_text {
-    font-family: OpenSans-Regular;
+    font-family: Tahoma;
    }
 
  hr {
@@ -546,7 +547,7 @@ outline: none;
 	margin-top: 50px;
 	margin-left: 70px;
 	color: #0066ff;
-	font-size: 17pt;
+	font-size: 15pt;
 	font-weight: normal;
 	margin-bottom: 15px;
 	text-shadow: 1px 1px 3px #ffffff, 0 0 0 #ffffff; /* Параметры тени */
@@ -636,7 +637,7 @@ float: left;
 {
 	text-align: center;
 	color: #0067cb;
-	font-size: 19pt;
+	font-size: 17pt;
 	font-weight: bold;
 	margin-bottom: 50px;
 }
@@ -1281,4 +1282,9 @@ body {
 	font-size:14pt;
 	font-weight:normal;
 	line-height:15px;
+}
+
+.sslogo {
+	height:16px;
+	width:136px;
 }
