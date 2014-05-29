@@ -1247,6 +1247,7 @@ font-weight: normal;
   background-color: #3266cc;
   background-image: none;
   border: none;
+  display: none;
 }
 
 #blue_ban li {
@@ -1262,7 +1263,7 @@ font-weight: normal;
 }
 
 body {
-	margin-top: 15px;
+	margin-top: 0px;
 }
 
 #img1 {
@@ -1320,3 +1321,5 @@ body {
  width:240px;
  margin-left:55px;
  border:none;}
+
+ 
